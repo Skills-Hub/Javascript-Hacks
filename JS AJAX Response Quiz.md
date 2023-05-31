@@ -1,29 +1,32 @@
-# 👋 Hello there! Today we'll be exploring some questions about JavaScript AJAX response. AJAX is a powerful technique used to exchange data with a server without requiring a page refresh. Let's dive into some multiple-choice questions to test your knowledge on the subject!
 
-## 🤔 Question 1: What does AJAX stand for?
-- A) Asynchronous JavaScript and XML
-- B) Asynchronous JavaScript and HTML
-- C) Asynchronous JavaScript and CSS
-- D) Asynchronous JavaScript and JSON
+# 📝 Introduction
 
-### Answer: A) Asynchronous JavaScript and XML
+AJAX (Asynchronous JavaScript and XML) is a popular technique used in web development to create faster, more dynamic web pages. With AJAX, web pages can update content without having to reload the entire page. One of the key features of AJAX is the ability to send and receive data asynchronously using JavaScript. In this article, we'll cover 20 multiple-choice questions related to JavaScript AJAX requests.
 
-## 🤔 Question 2: Which object is used to make AJAX requests in JavaScript?
-- A) XMLHttpRequest
-- B) JSONRequest
-- C) HTMLRequest
-- D) TextRequest
+# 🤔 Questions
 
-### Answer: A) XMLHttpRequest
+Here are the first three questions along with their answer and options:
 
-## 🤔 Question 3: What is the first argument in the XMLHttpRequest.open() method?
-- A) HTTP method
-- B) URL
-- C) Data
-- D) Headers
+## 1,What does AJAX stand for?
+### Answer: Asynchronous JavaScript and XML
+- Option 02: Asynchronous JavaScript and XHTML
+- Option 03: Asynchronous JSON and XML 
+- Option 04: Asynchronous XML and HTML
 
-### Answer: B) URL
 
-🎉🎉🎉 Congratulations on completing the quiz! We hope you learned something new about AJAX and JavaScript.
+## 2,What object is used to create an AJAX request in JavaScript?
+### Answer: XMLHttpRequest
+- Option 02: JSONRequest
+- Option 03: HTMLRequest
+- Option 04: Request
 
-# For more skill tests, visit [Skillstest](skillstest.me). Happy coding! 👨‍💻👩‍💻
+## 3,What is the purpose of the readyState property in AJAX?
+### Answer: To store the current status of the XMLHttpRequest object
+- Option 02: To store the response from the server 
+- Option 03: To store the response headers from the server
+- Option 04: To store the URL of the requested file
+
+# 🔍 Conclusion
+
+We hope these questions helped you test your knowledge of JavaScript AJAX requests! We covered topics like the meaning of AJAX, how to create an AJAX request, and the purpose of the readyState property. If you want to test your skills further, head over to [Skillstest](skillstest.me) for more questions on this topic.
+
