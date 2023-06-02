@@ -10,7 +10,7 @@ Our repository includes a vast range of topics, from JavaScript syntax to advanc
 
 | Topic | Description |
 | --- | --- |
-| JS Intro | Introduction to JavaScript |
+| [JS Intro](https://github.com/Skills-Hub/Javascript-Hacks#readme) | Introduction to JavaScript |
 | JS Output | Displaying output in JavaScript |
 | JS Statements | JavaScript statements |
 | JS Syntax | JavaScript syntax |
