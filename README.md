@@ -11,8 +11,8 @@ Our repository includes a vast range of topics, from JavaScript syntax to advanc
 | Topic | Description |
 | --- | --- |
 | [JS Intro](https://github.com/Skills-Hub/Javascript-Hacks#readme) | Introduction to JavaScript |
-| JS Output | Displaying output in JavaScript |
-| JS Statements | JavaScript statements |
+| [JS Output](https://github.com/Skills-Hub/Javascript-Hacks/blob/main/JS%20Output/JS%20Output.md) | Displaying output in JavaScript |
+| [JS Statements](https://github.com/Skills-Hub/Javascript-Hacks/blob/main/JS%20Statements/JS%20Statements.md) | JavaScript statements |
 | JS Syntax | JavaScript syntax |
 | JS Comments | Comments in JavaScript |
 | JS Variables | Variables in JavaScript |
