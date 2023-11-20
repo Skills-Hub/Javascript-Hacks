@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+                User Profile
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Profile of <%= user.fullName %></h5>
+                <img src="<%= user.profilePicture %>" alt="<%= user.fullName %>" class="img-thumbnail mb-3">
+                <p class="card-text"><strong>Username:</strong> <%= user.username %></p>
+                <p class="card-text"><strong>Email:</strong> <%= user.email %></p>
+                <p class="card-text"><strong>Role:</strong> <%= user.role %></p>
+                <p class="card-text"><strong>Status:</strong> <%= user.status %></p>
+                <p class="card-text"><strong>Last Login:</strong> <%= user.lastLogin %></p>
+                <p class="card-text"><strong>Created At:</strong> <%= user.createdAt %></p>
+                <p class="card-text"><strong>Updated At:</strong> <%= user.updatedAt %></p>
+                <p class="card-text"><strong>Address:</strong> <%= user.address.street %>, <%= user.address.city %>, <%= user.address.state %>, <%= user.address.zipCode %>, <%= user.address.country %></p>
+                <p class="card-text"><strong>Phone:</strong> <%= user.contact.phone %></p>
+                <p class="card-text"><strong>Secondary Email:</strong> <%= user.contact.secondaryEmail %></p>
+                <p class="card-text"><strong>Preferred Language:</strong> <%= user.preferences.language %></p>
+                <p class="card-text"><strong>Notifications:</strong> Email - <%= user.preferences.notifications.email ? 'Yes' : 'No' %>, SMS - <%= user.preferences.notifications.sms ? 'Yes' : 'No' %>, In-App - <%= user.preferences.notifications.inApp ? 'Yes' : 'No' %></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "email": "john_doe@example.com",
+      "password": "hashed_password",
+      "fullName": "Mokter Doe",
+      "role": "admin",
+      "status": "active",
+      "lastLogin": "2021-01-01T00:00:00Z",
+      "createdAt": "2020-01-01T00:00:00Z",
+      "updatedAt": "2021-01-01T00:00:00Z",
+      "profilePicture": "http://example.com/profile/john_doe.jpg",
+      "address": {
+        "street": "1234 Main St",
+        "city": "Anytown",
+        "state": "Anystate",
+        "zipCode": "12345",
+        "country": "Countryland"
+      },
+      "contact": {
+        "phone": "123-456-7890",
+        "secondaryEmail": "john.secondary@example.com"
+      },
+      "preferences": {
+        "language": "English",
+        "notifications": {
+          "email": true,
+          "sms": false,
+          "inApp": true
+        }
+      }
+    }
+  ]
+}
